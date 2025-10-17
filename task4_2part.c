@@ -1,22 +1,6 @@
 #include <stdio.h>
 #include <Windows.h>
 
-void def421(n, m)
-{
-	int i = 1;
-	while (i <= n)
-	{
-		int j = 1;
-		while (j <= m) {
-			printf("%d", i);
-			printf("%d\t", j);
-			j = j + 1;
-		}
-		printf("\n");
-		i = i + 1;
-	}
-
-	printf("\nконец операции\n\n");
 }
 void def422()
 {
