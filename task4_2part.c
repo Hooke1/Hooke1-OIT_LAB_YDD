@@ -34,38 +34,6 @@ void def423()
 	printf("\nконец операции\n\n");
 }
 
-void def424()
-{
-	int kp = 10;
-	int st = 5;
-	int pr = 5;
-	int i = 0;
-	while (st >= 0)
-	{
-		while (i < kp)
-		{
-			printf(" ");
-			i++;
-		}
-		while (st != pr)
-		{
-			printf("%d ", pr);
-			pr = pr - 1;
-		}
-		pr = st + 1;
-		while (pr < 5)
-		{
-			pr = pr + 1;
-			printf("%d ", pr);
-		}
-		printf("\n");
-		st = st - 1;
-		kp = kp - 2;
-		pr = 5;
-		i = 0;
-	}
-	printf("\nконец операции\n\n");
-}
 
 void main()
 {
